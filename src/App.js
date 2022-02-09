@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Navbar from "../src/components/Navbar";
 import Home from "../src/pages/Home";
+import Register from "../src/pages/Register";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/cadastro" element={<Register />} />
             {/* <Route path="/cadastro">
               <Cadastro />
             </Route>
