@@ -1,0 +1,27 @@
+.card {
+  background-color: #f54748;
+  padding: 50px;
+  border: 3px solid #bb371a;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  width: 500px;
+  margin: 10px auto;
+}
+
+.card h3 {
+  color: #f5e6ca;
+  font-size: 3rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+}
+
+.posts {
+  text-align: center;
+}
+
+.posts-title {
+  color: #343f56;
+  text-align: center;
+}
