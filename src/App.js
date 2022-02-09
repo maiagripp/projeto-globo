@@ -5,6 +5,8 @@ import Navbar from "../src/components/Navbar";
 import Home from "../src/pages/Home";
 import Register from "../src/pages/Register";
 import Login from "../src/pages/Login";
+import CreatePost from "../src/pages/CreatePost";
+import Posts from "../src/pages/Posts";
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/cadastro" element={<Register />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/create-post" element={<CreatePost />} />
+            <Route path="/posts/" element={<Posts />} />
+            <Route path="/posts/:id" element={<Posts />} />
             {/* <Route path="/cadastro">
               <Cadastro />
             </Route>
