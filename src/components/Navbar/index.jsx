@@ -12,7 +12,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/servicos">Criar Post</Link>
+          <Link to="/create-post">Criar Post</Link>
         </li>
         <li>
           <Link to="/cadastro">Cadastre-se</Link>

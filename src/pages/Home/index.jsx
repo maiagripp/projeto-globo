@@ -1,9 +1,12 @@
 import "./styles.css";
 
+import PostList from "../PostList";
+
 const Home = () => {
   return (
     <div className="home">
-      <h1>Essa é a home</h1>
+      <h1>Blog</h1>
+      <PostList />
     </div>
   );
 };

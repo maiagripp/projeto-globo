@@ -1,6 +1,6 @@
-//import http from "../http";
-import "./styles.css";
+// import http from '../http';
 import CardPost from "../../components/CardPost";
+import "./styles.css";
 
 import { useEffect, useState } from "react";
 
@@ -13,6 +13,7 @@ const Posts = () => {
 
   return (
     <div className="posts">
+      <h1 className="posts-title">Posts</h1>
       <ul>
         {posts.map((post) => (
           <CardPost
