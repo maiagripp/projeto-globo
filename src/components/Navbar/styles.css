@@ -1,0 +1,17 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f6ae2d;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
