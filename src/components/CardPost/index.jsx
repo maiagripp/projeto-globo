@@ -1,14 +1,14 @@
 import "./style.css";
 import { Link } from "react-router-dom";
 
-const CardProduto = ({ nome, preco, id }) => {
+const CardPost = ({ title, text, id }) => {
   return (
-    <div className="cardTodos">
-      <h3>{nome}</h3>
-      <p>R$ {preco}</p>
-      <Link to={`/produtos/${id}`}>Ver detalhes</Link>
+    <div className="cardPost">
+      <h3>{title}</h3>
+      <p>R$ {text}</p>
+      <Link to={`/posts/${id}`}>Ver mais</Link>
     </div>
   );
 };
 
-export default CardProduto;
+export default CardPost;
