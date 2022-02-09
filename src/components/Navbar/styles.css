@@ -1,13 +1,22 @@
+nav {
+  background-color: #33658a;
+}
+
 ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   column-gap: 20px;
+  padding: 20px;
 }
 
 a {
   text-decoration: none;
+  color: #f6ae2d;
+}
+
+a:visited {
   color: #f6ae2d;
 }
 
