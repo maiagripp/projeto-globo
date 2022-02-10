@@ -1,4 +1,4 @@
-// import http from '../http';
+import http from "../../http";
 import CardPost from "../../components/CardPost";
 import "./styles.css";
 
@@ -7,9 +7,9 @@ import { useEffect, useState } from "react";
 const Posts = () => {
   const [posts, setPosts] = useState([]);
 
-  //   useEffect(() => {
-  //     http.get("posts").then((response) => setPosts(response.data));
-  //   }, []);
+  useEffect(() => {
+    http.get("posts").then((response) => setPosts(response.data));
+  }, []);
 
   return (
     <div className="posts">
