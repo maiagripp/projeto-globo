@@ -1,6 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
-//import http from "../http/index";
+import http from "../../http/index";
 
 const Cadastro = () => {
   const [nome, setNome] = useState("");
@@ -25,15 +25,15 @@ const Cadastro = () => {
       senha: senha,
     };
 
-    // http
-    //   .post("auth/register", usuario)
-    //   .then((response) => {
-    //     console.log(response.data);
-    //     localStorage.setItem("token", response.data.access_token);
-    //   })
-    //   .catch((erro) => {
-    //     console.log(erro);
-    //   });
+    http
+      .post("auth/register", usuario)
+      .then((response) => {
+        console.log(response.data);
+        localStorage.setItem("token", response.data.access_token);
+      })
+      .catch((erro) => {
+        console.log(erro);
+      });
   };
 
   return (

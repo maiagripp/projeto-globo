@@ -1,6 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
-// import http from "../http/index";
+import http from "../../http";
 
 const CreatePost = () => {
   const [title, setTitle] = useState("");
@@ -20,16 +20,14 @@ const CreatePost = () => {
       text: text,
     };
 
-    // http
-    //   .post("auth/login", usuario)
-    //   .then((response) => {
-    //     console.log(response.data);
-    //     localStorage.setItem("token", response.data.access_token);
-    //     localStorage.setItem("nome", response.data.user.nome);
-    //   })
-    //   .catch((erro) => {
-    //     console.log(erro);
-    //   });
+    http
+      .post("posts", post)
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((erro) => {
+        console.log(erro);
+      });
   };
 
   return (
