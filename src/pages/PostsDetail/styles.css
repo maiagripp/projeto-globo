@@ -1,0 +1,12 @@
+.detalhes {
+  text-align: center;
+}
+
+.btn-voltar {
+  background-color: #fb9300;
+  padding: 10px 40px;
+  border: none;
+  color: #343f56;
+  font-weight: bolder;
+  border-radius: 4px;
+}
