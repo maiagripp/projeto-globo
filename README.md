@@ -14,9 +14,12 @@ Nesta etapa, o gerenciador irá instalar as dependências necessárias paa rodar
 
 E, por fim, o usuário irá dar o comando 'npm start' ou 'yarn start' no terminal para rodar o projeto.
 
+O usuário deverá baixar o arquivo db.json e rodar no cdm o comando "npm install -g json-server" ou "yarn add json-server" na pasta em que o arquivo 'db.json' for salvo e em seguida rodar o comando 'json-server --watch db.json'.
+
 ## Stack utilizada
 
 **Front-end:** React
+**Back-end:** Api mockada usando json-server
 
 ## Suporte
 
