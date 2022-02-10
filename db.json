@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Claudia Maia",
+      "senha": "123456",
+      "email": "emaildaclaudia@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Primeiro post",
+      "text": "Esse é o primeiro post desse blog"
+    },
+    {
+      "id": 2,
+      "title": "Segundo post",
+      "text": "Esse é o segundo post desse blog"
+    }
+  ]
+}

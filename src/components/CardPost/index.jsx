@@ -5,7 +5,7 @@ const CardPost = ({ title, text, id }) => {
   return (
     <div className="cardPost">
       <h3>{title}</h3>
-      <p>R$ {text}</p>
+      <p>{text}</p>
       <Link to={`/posts/${id}`}>Ver mais</Link>
     </div>
   );
